@@ -61,6 +61,20 @@ for (int i = 0; i < parameters.length; i++) {
 Object service = constructor.newInstance(args);
 ```
 
+### 4. 객체의 타입을 모를 때, 사용됩니다.
+객체의 타입을 모를 때, 클래스 정보 확인 / 동적으로 메서드 호출이 가능하며, 만약 클래스 이름만 알고 있다면 인스턴트 생성이 가능합니다.
+
+```java
+// 클래스 이름만 알고 있을 때 인스턴스 생성
+String className = "com.example.UserService";
+Class<?> clazz = Class.forName(className);
+Object instance = clazz.getDeclaredConstructor().newInstance();
+
+// 동적으로 메서드 호출
+Method method = clazz.getDeclaredMethod("getUser", Long.class);
+Object result = method.invoke(instance, 1L);
+```
+
 ---
 
 ## 🤷🏻‍♂️ 단점은 없을까요?
