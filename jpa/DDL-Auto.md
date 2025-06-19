@@ -5,14 +5,14 @@ ddl-auto 옵션은 스프링 부트 애플리케이션에서 `Hibernate`와 같�
 <details>
 <summary>Hibernate란?</summary>
 
-**Hibernate**는 Java에서 가장 널리 사용되는 **ORM(Object-Relational Mapping) 프레임워크**입니다.
-
+>**Hibernate**는 Java에서 가장 널리 사용되는 **ORM(Object-Relational Mapping) 프레임워크**입니다.
+>
 > ORM이란?
 > <br> **Object**: Java 객체
 > <br> **Relational**: 관계형 데이터베이스 
 > <br> **Mapping**: 객체와 DB 테이블을 연결
-
-즉, Hibernate는 **JPA 스펙을 구현한 가장 인기 있는 ORM 프레임워크**로, Spring Data JPA와 함께 사용되어 Java 개발에서 데이터베이스 접근을 단순화합니다.
+>
+>즉, Hibernate는 **JPA 스펙을 구현한 가장 인기 있는 ORM 프레임워크**로, Spring Data JPA와 함께 사용되어 Java 개발에서 데이터베이스 접근을 단순화합니다.
 
 </details>
 
