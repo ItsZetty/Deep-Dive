@@ -9,7 +9,7 @@ JPA에서는 ID를 생성하기 위해서 직접 할당과 자동 할당을 사�
 @Retention(RetentionPolicy.RUNTIME)  
 public @interface GeneratedValue {  
     GenerationType strategy() default GenerationType.AUTO;  
-  
+
     String generator() default "";  
 }
 
