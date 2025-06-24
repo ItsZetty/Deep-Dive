@@ -103,7 +103,7 @@ class Book {
 After shallow copy and change:
 Original book1: Book name : 이펙티브 자바, Author : Joshua Bloch
 Shallow copied book: Book name : 이펙티브 자바, Author : Joshua Bloch
-  ㄹ
+
 After deep copy and change:
 Original book2: Book name : 리팩터링, Author : 마틴 파울러
 Deep copied book: Book name : 리팩터링, Author : Martin Fowler
