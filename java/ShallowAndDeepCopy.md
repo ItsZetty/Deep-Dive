@@ -1,4 +1,4 @@
-# Shallow Copy And Deep Copy
+# Shallow Copy and Deep Copy
 
 **얕은 복사(Shallow Copy)**와 **깊은 복사(Deep Copy)**는 객체를 복사하는 두 가지 방법입니다.
 
