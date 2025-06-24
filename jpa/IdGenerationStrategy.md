@@ -52,6 +52,6 @@ AUTO 전략은 데이터베이스 방언에 따라서 IDENTITY, SEQUENCE, TABLE 
 >💡 **IDENTITY, SEQUENCE, TABLE 중 선택하는 기준** <br>
 > 각 데이터베이스의 "가장 효율적이고 표준적인 ID 생성 방식"을 선택합니다. <br>
 > 
-> AUTO_INCREMENT 지원: IDENTITY 선택 <br>
-> SEQUENCE 지원: SEQUENCE 선택 <br>
-> 둘 다 지원: 해당 DB의 표준 방식 선택 <br>
+> **AUTO_INCREMENT 지원** : IDENTITY 선택 <br>
+> **SEQUENCE 지원** : SEQUENCE 선택 <br>
+> **둘 다 지원** : 해당 DB의 표준 방식 선택 <br>
