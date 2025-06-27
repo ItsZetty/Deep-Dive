@@ -3,7 +3,7 @@
 `Synchronized`는 Java에서 멀티스레드 환경에서 동시성 문제를 해결하기 위한 동기화 메커니즘입니다. 여러 스레드가 동시에 공유 자원에 접근할 때 발생할 수 있는 데이터 불일치 문제를 방지합니다.
 
 ## 🤷🏻‍♂️ 동기화가 왜 필요한가요?
-멀티스레드 환경에서는 여러 스레드가 동시에 같은 데이터를 수정할 때 **Race Condition**이 발생할 수 있습니다. 이는 예상치 못한 결과나 데이터 손실을 야기하므로 Thread Safety(스레드 안전성)를 보장해야 합니다.
+멀티스레드 환경에서는 여러 스레드가 동시에 같은 데이터를 수정할 때 `Race Condition`이 발생할 수 있습니다. 이는 예상치 못한 결과나 데이터 손실을 야기하므로 `Thread Safety(스레드 안전성)`를 보장해야 합니다.
 
 ## 🤷🏻‍♂️ Synchronized를 어떻게 사용하나요?
 
@@ -46,8 +46,8 @@ public class Counter {
 - 블록을 벗어날 때 락을 해제합니다.
 
 ### 락의 종류
-- **인스턴스 락**: synchronized 인스턴스 메서드나 synchronized(this)
-- **클래스 락**: synchronized 정적 메서드나 synchronized(Class.class)
+- **인스턴스 락**: `synchronized` 인스턴스 메서드나 `synchronized(this)`
+- **클래스 락**: `synchronized` 정적 메서드나 `synchronized(Class.class)`
 
 ## 🤷🏻‍♂️ Synchronized의 장단점은 무엇인가요?
 
@@ -140,7 +140,7 @@ public void processData() {
 
 ## 🤷🏻‍♂️ Synchronized의 대안은 무엇인가요?
 
-### 1. ReentrantLock
+### 1. `ReentrantLock`
 ```java
 private final ReentrantLock lock = new ReentrantLock();
 
@@ -154,7 +154,7 @@ public void increment() {
 }
 ```
 
-### 2. Atomic 클래스
+### 2. `Atomic` 클래스
 ```java
 private AtomicInteger count = new AtomicInteger(0);
 
