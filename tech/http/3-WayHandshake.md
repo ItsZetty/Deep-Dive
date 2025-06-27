@@ -4,7 +4,7 @@ TCP 3-Way Handshakee는 TCP/IP 네트워크에서 안정적이고 연결 지향�
 
 이 절차는 클라이언트와 서버 간에 신뢰할 수 있는 연결을 설정하기 위해 세 개의 메시지(세그먼트)를 교환하는 과정을 포함합니다.
 
-<img src="../images/3-Way.png" alt="3-Way Handshake">
+<img src="../../assets/images/3-Way.png" alt="3-Way Handshake">
 
 ### **1단계: SYN (SYN_SENT)**
 - **클라이언트**가 서버에 연결을 요청하는 SYN 세그먼트를 전송
@@ -34,7 +34,7 @@ TCP 3-Way Handshakee는 TCP/IP 네트워크에서 안정적이고 연결 지향�
 
 TCP 연결 종료는 4-Way Handshake를 통해 이루어집니다. 연결 설정과 달리 종료는 양방향으로 각각 독립적으로 이루어져야 하기 때문에 4단계가 필요합니다.
 
-<img src="../images/4-Way.png" alt="4-Way Handshake">
+<img src="../../assets/images/4-Way.png" alt="4-Way Handshake">
 
 ### **1단계: FIN (FIN_WAIT_1)**
 - **클라이언트**가 연결 종료를 요청하는 FIN 세그먼트를 서버에 전송
