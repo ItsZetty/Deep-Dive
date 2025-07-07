@@ -42,7 +42,7 @@ public class Counter {
 
 ### 모니터 락 (Monitor Lock)
 - 각 객체는 하나의 모니터 락을 가집니다.
-- synchronized 블록에 진입할 때 락을 획득합니다.
+- `Synchronized` 블록에 진입할 때 락을 획득합니다.
 - 블록을 벗어날 때 락을 해제합니다.
 
 ### 락의 종류
