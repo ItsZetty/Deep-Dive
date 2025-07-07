@@ -1,7 +1,7 @@
 # Fetch Join
 Fetch Join은 JPA에서 연관된 엔티티나 컬렉션을 한 번의 SQL로 즉시 함께 가져오기 위해 사용하는 JPQL의 특별한 JOIN 방식입니다.
 
-```java 
+```sql 
 select p from Parent p join fetch p.children
 ```
 
