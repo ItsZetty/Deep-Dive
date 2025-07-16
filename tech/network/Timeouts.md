@@ -1,4 +1,4 @@
-# Connection Timeout && Socket Timeout && Read Timeout
+# Connection Timeout, Socket Timeout and Read Timeout
 
 **Connection Timeout** <br>
 Connection Timeout은 클라이언트가 서버에 연결을 시도할 때, 일정 시간 내에 연결이 이루어지지 않으면 발생하는 타임아웃입니다. TCP 소켓 통신에서 클라이언트와 서버가 연결될 때, 정확한 전송을 보장하기 위해 사전에 세션을 수립하는데, 이 과정을 3-way-handshake라고 합니다. 
