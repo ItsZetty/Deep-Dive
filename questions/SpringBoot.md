@@ -29,3 +29,12 @@
 > SpringBoot, AOP, 비동기 로깅, 성능 최적화
 
 <hr>
+
+## 🤷🏻‍♂️ 대규모 서비스를 운영하면서 SpringBoot의 application.yml 설정 파일을 관리할 때, 환경별로 설정을 어떻게 분리하고 관리하는 것이 효율적이라고 생각하십니까? 실무에서의 경험을 바탕으로 설명해주세요.
+
+### 🙆🏻‍♂️ 답변
+> 실무에서 우리는 application.yml 파일을 환경별로 분리하여 관리했습니다. 특히 개발, QA, 프로덕션 환경별로 맞춤 설정을 적용했습니다. 이를 위해 Spring의 프로파일 기능을 사용해 application-dev.yml, application-qa.yml, application-prod.yml 파일을 각각 생성했습니다. 이렇게 함으로써 환경 변화에 빠르게 대응할 수 있었고, 실수로 인한 설정 오류를 최소화할 수 있었습니다.
+### 🔑 키워드
+> SpringBoot, application.yml, 환경 분리, 프로파일
+
+<hr>
