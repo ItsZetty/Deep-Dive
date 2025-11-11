@@ -20,7 +20,7 @@ Dockerhub은 Github처럼 이미지를 저장 및 다운받을 수 있는 저장
 $ docker image ls
 ```
 
-<img src="../../assets/docker-image-ls.png">
+<img src="../../assets/images/docker-image-ls.png">
 
 - `ls` : list의 약자
 - `REPOSITORY` : 이미지 이름(이미지명)
