@@ -1,8 +1,8 @@
-# RequestBody And ModelAttribute
+# RequestBody and ModelAttribute
 
 이들은 클라이언트 측에서 보낸 데이터를 Java 객체로 만들어주는데 `RequestBody`는 요청의 본문(Body)에 있는 값을 바인딩할 때 사용하고, `ModelAttribute`는 요청 파라미터나 `multipart/form-data` 형식을 바인딩할 때 사용합니다.
 
-## RequestBody
+## `RequestBody`
 
 - 클라이언트가 보내는 요청의 본문을 자바 객체로 변환합니다.
 - 내부적으로 HttpMessageConverter를 거치는데, 이때 ObjectMapper를 통해 JSON 값을 java 객체로 역직렬화합니다.
@@ -11,7 +11,7 @@
     - record는 기본생성자를 자동으로 제공하지 않는 대신, ’모든 필드를 초기화하는 생성자’를 제공합니다.
     - jackson은 일반 객체와 달리, record를 역직렬화할 때는 ’모든 필드를 초기화하는 생성자’를 사용해 역직렬화하기 때문입니다.
 
-## ModelAttribute
+## `ModelAttribute`
 
 - 두가지 사용법이 있습니다.
 - 첫번째 사용법인 메서드 단에서의 사용법은 jsp의 Model에 하나 이상의 속성을 추가하고 싶을 때 사용합니다.
